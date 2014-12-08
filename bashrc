@@ -1,3 +1,10 @@
+alias gst='git status'
+alias gpull='git pull --rebase'
+alias gpush='git push'
+
+function who_uses_port(){
+    sudo netstat -nlp | grep $1
+}
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
