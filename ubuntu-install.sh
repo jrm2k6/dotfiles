@@ -8,8 +8,9 @@ apt-get install tilda
 cd Downloads/
 wget http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2.tar.bz2
 tar -xvjf Sublime\ Text\ 2.0.2.tar.bz2
-sudo mv Sublime\ Text\ 2 /opt/
-sudo ln -s /opt/Sublime\ Text\ 2/sublime_text /usr/bin/sublime
+mv Sublime\ Text\ 2 /opt/
+ln -s /opt/Sublime\ Text\ 2/sublime_text /usr/bin/sublime
+ln -s /usr/bin/sublime /usr/bin/subl
 
 #skype
 apt-get install skype
@@ -49,4 +50,8 @@ ssh-keygen -t rsa -C "jeremy.dagorn@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
-
+cd ~
+mkdir Workspace && cd Workspace
+git clone git@github.com:jrm2k6/dotfiles.git
+cp dotfiles/bashrc ~/.bashrc
+cp dotfiles/bash_profile ~/.bash_profile
