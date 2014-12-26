@@ -33,6 +33,7 @@ apt-get install sqlite3
 #node
 apt-get install nodejs
 apt-get install npm
+ln -s /usr/bin/nodejs /usr/bin/node
 
 #virtualbox
 apt-get install virtualbox
