@@ -35,6 +35,7 @@ apt-get install sqlite3
 apt-get install nodejs
 apt-get install npm
 ln -s /usr/bin/nodejs /usr/bin/node
+npm install -g mocha
 
 #virtualbox
 apt-get install virtualbox
