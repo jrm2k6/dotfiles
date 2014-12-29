@@ -56,3 +56,6 @@ mkdir Workspace && cd Workspace
 git clone git@github.com:jrm2k6/dotfiles.git
 cp dotfiles/bashrc ~/.bashrc
 cp dotfiles/bash_profile ~/.bash_profile
+
+#clock issue
+killall unity-panel-service
