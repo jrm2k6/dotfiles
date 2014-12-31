@@ -31,6 +31,9 @@ apt-get install haskell-platform
 #database
 apt-get install sqlite3
 
+#jdk
+apt-get install openjdk-7-jdk
+
 #node
 apt-get install nodejs
 apt-get install npm
