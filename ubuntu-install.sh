@@ -32,7 +32,10 @@ apt-get install haskell-platform
 apt-get install sqlite3
 
 #jdk
-apt-get install openjdk-7-jdk
+apt-get install python-software-properties
+add-apt-repository ppa:webupd8team/java
+apt-get update
+apt-get install oracle-java7-installer
 
 #node
 apt-get install nodejs
