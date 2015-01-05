@@ -3,8 +3,7 @@
 sh -c "echo 'deb http://archive.canonical.com/ubuntu/ trusty partner' >> /etc/apt/sources.list.d/canonical_partner.list"
 apt-get update
 
-apt-get install python-dev libxml2-dev libxslt-dev
-
+apt-get install python-dev libxml2-dev libxslt-dev vlc
 #text editors
 apt-get install tilda
 cd Downloads/
