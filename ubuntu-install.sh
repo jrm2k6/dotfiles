@@ -59,6 +59,9 @@ ssh-keygen -t rsa -C "jeremy.dagorn@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
+#memcache
+apt-get install memcached
+
 cd ~
 mkdir Workspace && cd Workspace
 git clone git@github.com:jrm2k6/dotfiles.git
